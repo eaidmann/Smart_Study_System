@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Appointment Form</title>
+        <link rel="stylesheet" type="text/css" href="appointmentform.css"
+    </head>
+    
+    <body>
+        
+        <ul>
+            <li><a href="../student_index.php">Home</a></li>
+            <li><a href="../course/mycourse.php">My Courses</a></li>
+			<li><a class="active" href="myappointment.php">My Appointment</a></li>
+            <li><a href="#contact">View Courses</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="logoutbtn"><a href="../logout/logout.php">Logout</a></li>
+     </ul>
+        
+        <div class="appointmentheader">
+            <h1><center><B>APPOINTMENT FORM</B></center></h1>
+        </div>
+        <div class="appointmentform">
+            <form action="/submit.php"><center>
+                <table>
+                    <tr>
+                        <td><p>Course:</p></td>
+                        <th><p><input type="text" value="Select Course"></p></th>
+                    </tr>
+                    <tr>
+                        <td><P>Location:</P></td>
+                        <td><p><input type="text" value="Select Location"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Start Date:</p></td>
+                        <td><p><input type="date" value="Select Start Date"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>End Date:</p></td>
+                        <td><p><input type="date" value="Select End Date"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Start Time:</p></td>
+                            <td><p><input type="time" value="Select Time Start"></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>End Time:</p></td>
+                        <td><p><input type="time" value="Select Time End"></p></td>
+                    </tr>
+                    <div class="appointmentbtn" >
+                    <tr>    
+                        <th><input type="submit" style="position: absolute;right:500px;top: 420px; "></th>
+                        <th><a href="home.html"><input type="button" style="position: absolute;right: 440px;top:420px;" value="Cancel"></a></th>
+                    </tr>
+                    </div>
+                </table>
+            </center>
+            </form>
+        
+        </div>
+    </body>
+</html>

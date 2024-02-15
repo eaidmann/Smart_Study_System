@@ -1,0 +1,61 @@
+body{
+    background: url("../image/wood.jpg");
+    background-size: cover;
+}
+
+.type{
+    font-size: 15pt;
+    font-style: italic;
+}
+
+.Title{  
+    margin: 10px auto;
+    padding: 5px auto;
+    text-align: center;
+    color: white;
+    border : dotted 5px black;
+    background: #046;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(active){background-color: turquoise;}
+.active{background-color: steelblue;}
+
+
+table, th , td{
+    
+    border: solid 4px black;
+    border-spacing: 20pt;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th { background-color: aqua}
+td {background-color: cadetblue}
+
+.formstyle{
+    margin: 20px;
+}
+
+.logoutbtn{
+    float: right;
+}

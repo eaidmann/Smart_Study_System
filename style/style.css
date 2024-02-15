@@ -1,0 +1,272 @@
+.registerform {
+    border: 2px;
+    border-style: dotted;
+    border-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+#indexpage{
+    background: url("../unimap.jpg");
+    background-size: cover;
+}
+
+#studentmain{
+    background: url("../image/newpic.jpg");
+    background-size: cover;
+}
+
+#lectmain{
+    background: url("../image/newpic.jpg");
+    background-size: cover;
+}
+
+#mycoursepage{
+    background: url("../image/forest.jpg");
+    background-size: cover;
+}
+
+.logo img
+{
+    width:200px;
+    height: auto;
+    float: right;
+}
+
+.hero
+{
+    width: 1500px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 570px;
+
+}
+
+.btn
+{
+    border: 3px solid white;
+    padding: 10px 30px;
+    color: floralwhite;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.h1main
+{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align:center;
+}
+
+.h2main
+{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 10px;
+}
+
+.h3main
+{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 5px;
+}
+
+.h4main
+{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 10px;
+}
+
+.btn-one
+{
+    background-color: darkorange;
+    font-family:"Roboto",sans-serif;
+}
+
+.btn-two
+{
+    font-family:"Roboto",sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top : 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: turquoise;
+}
+
+.logoutbtn{
+    float: right;
+}
+
+.studentpage{
+    border-style: dashed;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    background: grey;
+    opacity: 0.9;
+}
+
+.createpage{
+    border-style: dashed;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    background: lightgreen;
+    opacity: 0.9;
+}
+
+.lecturerpage{
+    border-style: dashed;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    background: lightgreen;
+    opacity: 0.9;
+}
+
+.active{
+    background-color: steelblue;
+}
+
+.bodycontent{
+    margin-top: 10%;
+    float: right;
+    margin-right: 20%;
+}
+
+.bodybutton{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    float: right;
+    box-shadow: 1px 1px 1px black;
+}
+
+.createtable{
+    text-align: right;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover , .dropdown:hover .dropbtn{
+    background-color: turquoise;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: fixed;
+    background: lightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: paleturquoise;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown{
+    float: right;
+    margin-right: 20px;
+}
+
+.mainindex{
+    background: grey;
+    border: solid 1pt black;
+    margin-top: 200px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.9;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.accountdetail{
+    border: solid 1pt black;
+    border-collapse: collapse;
+}
+
+.accountdetail td{
+    border: solid 1pt black;
+}
+
+.editbttn{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding : 5px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px black;
+}

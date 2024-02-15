@@ -1,0 +1,46 @@
+body{
+    background: url('../image/contact.jpg');
+    background-size: cover;
+}
+
+.Contact{
+    font-size: 15pt;
+    font-style: italic;
+    margin: 150px;
+}
+.About{
+    font-size: 20pt;
+    font-style:oblique;
+    margin: 150px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(active){background-color: turquoise;}
+.active{background-color: steelblue;}
+
+.unimapimage{
+    float: left;
+    border: solid 1pt black;
+    margin-right: 10px;
+    
+}
